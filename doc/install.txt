@@ -1,9 +1,22 @@
-php require laravel/socialite
+Instalar en sistema operativo --------------------------------------------------------------------
+
+XAMPP     // https://www.apachefriends.org/es/download.html
+instalar Composer  // https://getcomposer.org/download/
+
+VSCode.extensiones -------------------------------------------------------------------------------
+
+PHP Intelephense
+VSCode.extensión: Laravel Snippets
+VSCode.extensión: Laravel Blade Snippets
+VSCode.extensión: Laravel Blade formatter
+
+Terminal -----------------------------------------------------------------------------------------
+
+composer global require laravel/installer
+composer require laravel/socialite
 composer require fruitcake/laravel-cors
-php artisan make:middleware cors
-
-php artisan make:migration create_api_session_table 
 php artisan migrate
-php artisan make:model ApiSession
-php artisan make:model ApiSessionEnv
 
+Misceláneo ---------------------------------------------------------------------------------------
+
+Arrancar: php artisan serve
