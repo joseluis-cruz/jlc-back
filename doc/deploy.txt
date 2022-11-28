@@ -1,0 +1,11 @@
+comprimir todo el proyecto en un .zip, salvo la carpeta "public"
+    la primera vez adaptar ".env" con parámetros en producción
+    las veces siguientes no incluirlo, retocar a mano el publicado si es que ha cambiado
+subir y descomprimir a una carpeta privada, anterior a "public" en el alojamiento
+    en este caso /laravel/inscripciones
+comprimir, subir y descomprimir carpeta "public" en la zona pública de http del alojamiento
+    en este caso /public/inscripciones-back
+editar en el alojamiento el archivo "index.php"
+    en este caso ubicado en /public/inscripciones-back/index.php
+    modificar las rutas para adaptarlas a la ocultación de la carpeta privada, en este caso:
+    

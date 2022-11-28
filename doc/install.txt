@@ -1,0 +1,9 @@
+php require laravel/socialite
+composer require fruitcake/laravel-cors
+php artisan make:middleware cors
+
+php artisan make:migration create_api_session_table 
+php artisan migrate
+php artisan make:model ApiSession
+php artisan make:model ApiSessionEnv
+
