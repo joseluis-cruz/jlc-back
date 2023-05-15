@@ -1,22 +1,23 @@
-Instalar en sistema operativo --------------------------------------------------------------------
+-- Instalar en sistema operativo --------------------------------------------------------------------
 
 XAMPP     // https://www.apachefriends.org/es/download.html
-instalar Composer  // https://getcomposer.org/download/
+Composer  // https://getcomposer.org/download/
 
-VSCode.extensiones -------------------------------------------------------------------------------
+-- Extensiones para VSCode --------------------------------------------------------------------------
 
 PHP Intelephense
-VSCode.extensión: Laravel Snippets
-VSCode.extensión: Laravel Blade Snippets
-VSCode.extensión: Laravel Blade formatter
+Laravel Snippets
+Laravel Blade Snippets
+Laravel Blade formatter
 
-Terminal -----------------------------------------------------------------------------------------
+-- Ejecutar en terminal ------------------------------------------------------------------------------
 
 composer global require laravel/installer
 composer require laravel/socialite
 composer require fruitcake/laravel-cors
+composer require guzzlehttp/guzzle
 php artisan migrate
 
-Misceláneo ---------------------------------------------------------------------------------------
+-- Misceláneos ---------------------------------------------------------------------------------------
 
 Arrancar: php artisan serve
