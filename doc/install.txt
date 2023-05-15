@@ -3,6 +3,8 @@
 XAMPP     // https://www.apachefriends.org/es/download.html
 Composer  // https://getcomposer.org/download/
 
+Preparar BD en MySQL local. Copiar "punto_env.txt" como ".env" en la raiz y adaptar parámetros BD_*
+
 -- Extensiones para VSCode --------------------------------------------------------------------------
 
 PHP Intelephense
